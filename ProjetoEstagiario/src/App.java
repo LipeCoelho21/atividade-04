@@ -13,7 +13,7 @@ public class App { // execução do programa principal
         LocalDate dataVinculoFinal = LocalDate.of(2023, 6, 30);
 
         BasePessoaFisica funcionario1 = new Funcionario (1, dataInsercao, "João", "(67) 99223-4566",
-        "Joao_Funcionario", "@senha", dataNascimentoFunc, "crachaJoão", 
+        "Carlos_Funcionario", "@senha", dataNascimentoFunc, "crachaCarlos", 
         "78945-6", dataVinculoInicial, dataVinculoFinal, "registro1");
         
         String nomeFuncionario = funcionario1.getNome();
@@ -34,8 +34,6 @@ public class App { // execução do programa principal
         String nomePassageiro = passageiro1.getNome();
         System.out.println("\n\nNome: " + nomePassageiro);
 
-        passageiro1.setNome("Maria");
-        System.out.println("Novo nome: " + passageiro1.getNome());
         System.out.println("Novo passageiro inserido: \n");   
         System.out.println(passageiro1); 
     }
