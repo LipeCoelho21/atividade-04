@@ -21,7 +21,7 @@ public class App { // execução do programa principal
 
         funcionario1.setNome("Carlos");
         System.out.println("Novo nome: " + funcionario1.getNome());
-        System.out.println("Novo funcionário inserido: \n");   
+        System.out.println("\nNovo funcionário inserido: \n");   
         System.out.println(funcionario1); 
 
 
@@ -34,7 +34,7 @@ public class App { // execução do programa principal
         String nomePassageiro = passageiro1.getNome();
         System.out.println("\n\nNome: " + nomePassageiro);
 
-        System.out.println("Novo passageiro inserido: \n");   
+        System.out.println("\nNovo passageiro inserido: \n");   
         System.out.println(passageiro1); 
     }
 }
